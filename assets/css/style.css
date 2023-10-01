@@ -15,16 +15,16 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+h1 { /* removed unecessary selector */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo { /* removed unecessary selectors */
     color: #d9dcd6;
 }
 
-.header div {
+nav { /* removed unecessary selectors */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* ul {
     list-style-type: none;
-}
+} Removed unecessary rule */
 
-.header div ul li {
+li { /* removed unecessary selectors */
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,14 +50,20 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
+
+/* Optional alt text for hero image - do not recommend as it's decorative:
+    .visually-hidden { 
+    position: absolute;
+    left: -999px;
+  } */
 
 .float-left {
     float: left;
@@ -75,7 +81,29 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+/* replaced main content CSS with shorter version below */
+.content section { 
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    
+     
+    .content section img { 
+        max-height: 200px;
+    }
+    
+    
+    .content section h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+/* renamed classes and shortened CSS for the aside section below */
+.benefits-list {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,106 +114,20 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
