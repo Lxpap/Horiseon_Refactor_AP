@@ -15,16 +15,19 @@ body {
     color: #ffffff;
 }
 
-h1 { /* removed unecessary selector */
+/* removed unecessary selector */
+h1 { 
     display: inline-block;
     font-size: 48px;
 }
 
-.seo { /* removed unecessary selectors */
+/* removed unecessary selectors */
+.seo { 
     color: #d9dcd6;
 }
 
-nav { /* removed unecessary selectors */
+/* removed unecessary selectors */
+nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,13 @@ nav { /* removed unecessary selectors */
     font-size: 20px;
 }
 
-/* ul {
+/* removed unecessary rule 
+ul {
     list-style-type: none;
-} Removed unecessary rule */
+}  */
 
-li { /* removed unecessary selectors */
+/* removed unecessary selectors */
+li { 
     display: inline-block;
     margin-left: 25px;
 }
@@ -58,12 +63,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-/* Optional alt text for hero image - do not recommend as it's decorative:
-    .visually-hidden { 
-    position: absolute;
-    left: -999px;
-  } */
 
 .float-left {
     float: left;
@@ -137,6 +136,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+/* changed h2 to h4 */
+.footer h4 {
     font-size: 20px;
 }
