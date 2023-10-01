@@ -25,7 +25,7 @@ Visually there is only one change on the application, which can be seen at the b
 A solution to adding ALT text to a background image was found through research on:
 [stackoverflow.com](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)
 [MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-[Claude.ai] (https://claude.ai/)
+[Claude.ai](https://claude.ai/)
 
 ## License
 
