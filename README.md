@@ -16,7 +16,7 @@ In order for these changes to be implemented in the live version of Horiseon's w
 
 ## Mock-Up
 
-Visually there is only one change on the application, which can be seen at the bottom
+The updated code does not affect the application visually:
 
 ![screenshot of Horiseon's website with the updated code](assets/images/screenshot.png)
 
