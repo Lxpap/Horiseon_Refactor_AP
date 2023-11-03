@@ -8,6 +8,8 @@ This repository includes all of the assets and code necessary for updating Horis
 2. A semantics-first approach is followed in the code 
 3. The code is optimised and follows a logical structure
 
+To visit a live version of the updated application, [click here.](https://lxpap.github.io/Horiseon_Refactor_AP/#search-engine-optimization)
+
 
 ## Installation
 
